@@ -1,0 +1,43 @@
+body{
+   background:  hsl(218 28% 13%);
+   font-size: 14px;
+}
+.starter{
+    background:  hsl(217, 28%, 15%);
+        color: white;
+        margin: 20px 20px 10px 300px;
+        padding: 10px;
+        text-align: center;
+        width: 50%;
+        font-family: "raleway", serif;
+        
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+input{
+    background: hsl(0, 0%, 100%);
+    border: 3px hsl(0, 0%, 100%) solid;
+    border-radius: 15px;
+    padding: 5px;
+   }
+
+button{
+    border: 1px hsl(176, 68%, 64%) solid;
+    border-radius: 15px;
+    background: hsl(176, 68%, 64%);
+   
+    padding: 5px;
+    margin-top:0px;
+    
+    
+}
+
+.email button:hover{
+    background: hsl(198, 60%, 50%);
+    border: 1px hsl(198, 60%, 50%) solid;
+}
