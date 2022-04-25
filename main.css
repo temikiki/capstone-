@@ -1,15 +1,130 @@
 body{
    background:  hsl(218 28% 13%);
+   background-color: hsl(218 28% 13%) ;
+   /* position: relative; */
+   z-index: -1;
    font-size: 14px;
+   font-weight: 400, 700;
+   color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.feats{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+.feats li{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.feats li:hover{
+    background: white;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.secure{
+   
+   
+    z-index: 1;
+    /* position: absolute; */
+    color: white;
+    text-align: center;
+}
+.secure img{
+    filter: opacity(200px);
+}
+
+.access{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left:25%;
+    padding: 20px;
+
+}
+.real{
+    text-align: center;
+    padding: 100px;
+}
+.secu{
+    text-align: center;
+    padding: 100px;
+    margin-top:-10px
+}
+
+.store{
+    display: flex;
+    margin-left:25%;
+    padding: 10px;
+
+}
+.collab{
+    text-align: center;
+    padding: 100px;
+}
+
+.file{
+    text-align: center;
+    padding: 100px;
+}
+
+.photo{
+    display: flex;
+    margin-bottom: 100px;
+    /* justify-content: space-around; */
+}
+.pt{
+    margin-left:40px;
+}
+.text{
+    padding: 50px;
+}
+.text a{
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+    padding: 2px;
+}
+.div{
+    margin-left:20px;
+
+}
+.testimony{
+display: flex;
+justify-content: space-around;
+margin-bottom: 100px;
+background:  hsl(217, 28%, 15%);
+}
+.fylo{
+    background:  hsl(217, 28%, 15%);
+    box-shadow: 20px;
+}
+.i{
+    display: flex;
+
+}
+.i img{
+    border:1px;
+    border-radius: 100%;
+    
 }
 .starter{
     background:  hsl(217, 28%, 15%);
         color: white;
-        margin: 20px 20px 10px 300px;
+        margin: 20px 20px -80px 450px;
         padding: 10px;
         text-align: center;
         width: 50%;
         font-family: "raleway", serif;
+        position: relative;
+        z-index: 1;
         
 }
 
@@ -27,17 +142,51 @@ input{
    }
 
 button{
-    border: 1px hsl(176, 68%, 64%) solid;
-    border-radius: 15px;
-    background: hsl(176, 68%, 64%);
-   
+    background: hsl(198, 60%, 50%);
+    border: 1px hsl(198, 60%, 50%) solid;
+
+       border-radius: 15px;
     padding: 5px;
     margin-top:0px;
     
     
 }
 
-.email button:hover{
-    background: hsl(198, 60%, 50%);
-    border: 1px hsl(198, 60%, 50%) solid;
+ button:hover{
+    border: 1px hsl(176, 68%, 64%) solid;
+    background: hsl(176, 68%, 64%);
+    
+}
+   
+ .overflow{
+    
+    margin: opx opx 0px opx;
+   padding: 200px;
+    width: 73%;
+    background: hsl(216, 53%, 9%);
+    z-index: -1;
+   
+} 
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */
+   z-index: 1;
+    color: white;
+   
+    
+    position: absolute;
+    width: 80%;
+   
+   
+}
+.para{
+    display: flex;
+}
+.para img{
+    height: 15px;
+    width: 10px;
+    padding: 15px;
+    margin-top:5px;
 }
